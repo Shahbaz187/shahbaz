@@ -4,6 +4,9 @@ import React from "react";
 import styled from "styled-components";
 import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
+import { FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 const Icons = styled.div`
   display: flex;
@@ -39,11 +42,10 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://github.com/codebucks27"}
+          href={"https://www.linkedin.com/in/shahbaz-ansari-web-developer/"}
         >
-          <Github
-            width={25}
-            height={25}
+          <FaLinkedin
+            size={28}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
@@ -56,11 +58,10 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://twitter.com/code_bucks"}
+          href={"https://www.instagram.com/shahbaz_ansari_2007/"}
         >
-          <Twitter
-            width={25}
-            height={25}
+          <AiFillInstagram 
+            size={32}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
@@ -73,7 +74,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://facebook.com/codebucks27"}
+          href={"https://www.facebook.com/profile.php?id=61561335181043"}
         >
           <Facebook
             width={25}
@@ -90,11 +91,10 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://youtube.com"}
+          href={"mailto:shahbazansari8199@gmail.com"}
         >
-          <YouTube
-            width={25}
-            height={25}
+          <MdEmail 
+            size={30}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>

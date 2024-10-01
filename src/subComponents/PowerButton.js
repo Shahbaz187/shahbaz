@@ -4,6 +4,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { PowerBtn } from '../components/AllSvgs'
+import { FaHome } from 'react-icons/fa'
 
 
 const Power = styled.button`
@@ -41,7 +42,7 @@ const PowerButton = () => {
     return (
         <Power>
         <NavLink to="/">
-        <PowerBtn width={30} height={30} fill='currentColor' />
+                <FaHome size={25} fill='currentColor' />
         </NavLink>
         </Power>
     )

@@ -72,11 +72,11 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
+                    Welcome to my portfolio! I'm Shahbaz Ansari, a MERN stack developer based in India with over 2 years of experience. I specialize in creating simple yet captivating websites with a focus on great user experiences. As a freelancer and blogger, I love exploring new technologies and sharing my insights.
 <br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+                    As an independent freelancer and blogger, I love writing about development trends and sharing knowledge with the community. I believe every project is a form of art when approached with creativity and consciousness.
 <br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+                    Shahbaz Ansari
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

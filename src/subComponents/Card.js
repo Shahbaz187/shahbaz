@@ -60,8 +60,10 @@ background-color: ${props =>props.theme.body};
 color: ${props =>props.theme.text};
 text-decoration: none;
 padding:0.5rem calc(2rem + 2vw);
-border-radius: 0 0 0 50px;
+text-align: center;
+border-radius: 0 0 50px 50px;
 font-size:calc(1em + 0.5vw);
+width: 100%;
 
 ${Box}:hover &{
     background-color: ${props =>props.theme.text};
@@ -116,9 +118,6 @@ const Card = (props) => {
                 <Link href={demo} target="_blank">
                     Visit
                 </Link>
-                <Git  href={github}  target="_blank">
-                    <Github width={30} height={30} />
-                </Git>
             </Footer>
         </Box>
     )

@@ -9,6 +9,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
+import { AiFillCode } from 'react-icons/ai';
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -93,19 +94,19 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+                        <AiFillCode size={37} /> Backend
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+I enjoy building backend systems that are efficient, reliable, and simple.
 </Description>
 <Description>
-<strong>I like to Design</strong>
+<strong>I like to Backend</strong>
 <ul>
     <li>
-        Web Design
+        Node js
     </li>
     <li>
-        Mobile Apps
+        Express
     </li>
 </ul>
 </Description>
@@ -113,7 +114,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
 <strong>Tools</strong>
 <ul>
     <li>
-       Figma
+     MongoDB
     </li>
     
 </ul>
@@ -122,7 +123,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Develope width={40} height={40} /> Frontend
 </Title>
 <Description>
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
@@ -130,13 +131,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+    Html, Css, Js, React, Redux, Bootstrap, Tailwind,
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github, Git 
 </p>
 </Description>
 
