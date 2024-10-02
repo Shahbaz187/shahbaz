@@ -19,7 +19,11 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
+@media (max-width: 786px) {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 8rem 0;
+  }
 
 `
 
@@ -33,7 +37,9 @@ height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
-
+@media (max-width: 786px) {
+    width: 48vw;
+  }
 font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;

@@ -45,7 +45,7 @@ const Main =  styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
  backdrop-filter: blur(4px);
   
   position: absolute;
@@ -53,7 +53,31 @@ const Main =  styled.div`
   top: 10rem;
   font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
+  @media (max-width: 500px) {
+      width: 70vw;
+      padding: 1.32rem;
+      left: calc(3rem + 1vw);
+
+    }
 `
+
+// const Main = styled.div`
+//   border: 2px solid ${(props) => props.theme.text};
+//   color: ${(props) => props.theme.text};
+//   height: 60vh;
+//   z-index: 3;
+//   line-height: 1.5;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: calc(0.6rem + 1vw);
+//  backdrop-filter: blur(4px);
+  
+//   position: absolute;
+//   top: 10rem;
+//   font-family: 'Ubuntu Mono', monospace;
+//   font-style: italic;
+// `
 
 
 

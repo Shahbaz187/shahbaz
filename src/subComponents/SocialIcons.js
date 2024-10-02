@@ -16,13 +16,18 @@ const Icons = styled.div`
   position: fixed;
   bottom: 0;
   left: 2rem;
-
   z-index: 3;
-
+  
   & > *:not(:last-child) {
     margin: 0.5rem 0;
   }
-`;
+  @media (max-width: 786px) {
+  left: 1rem;
+  }
+  @media (max-width: 380px) {
+  left: 0.5rem;
+  }
+  `;
 
 const Line = styled(motion.span)`
   width: 2px;

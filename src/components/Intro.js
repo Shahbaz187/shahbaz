@@ -5,17 +5,14 @@ import Me from '../assets/Images/profile-img.png'
 
 
 const Box = styled(motion.div)`
-
 position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
 
-
 width: 65vw;
 height:55vh;
 display: flex;
-
 
 background: linear-gradient(
     to right,
@@ -33,6 +30,10 @@ background-size: 100% 2px;
 
     z-index:1;
 
+@media (max-width: 400px) {
+    width: 60vw !important;
+height:45vh !important;
+  }
 `
 const SubBox = styled.div`
 width: 50%;
@@ -51,6 +52,9 @@ display: flex;
 
 const Text = styled.div`
 font-size: calc(1em + 1.5vw);
+@media (max-width: 400px) {
+    font-size: calc(0.4em + 1.5vw);
+  }
 color: ${props => props.theme.body};
 padding: 2rem;
 cursor: pointer;

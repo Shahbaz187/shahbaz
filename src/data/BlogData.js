@@ -2,6 +2,14 @@
 
 export const Blogs = [
     {
+        id: 1,
+        name: "Create this Website Using Bootstap 5 and Jquery",
+        tags: ["REACT JS", "Tailwind CSS", ""],
+        date: "12 July, 2024",
+        imgSrc: "p3.png",
+        link: "https://landing-page-tau-orpin.vercel.app/"
+    },
+    {
         id:1,
         name:"Build Website with  Bootstap 5",
         tags:["HTML","CSS","Bootstrap" , "JS"],
@@ -17,4 +25,5 @@ export const Blogs = [
         imgSrc:"p2.png",
         link:"https://digi-media-five.vercel.app/"
     },
+
 ] 

@@ -28,6 +28,11 @@ const Container = styled.div`
 padding: 2rem;
 `
 
+const YinYangBox = styled.a`
+width: 50%;
+margin: auto;
+`
+
 const Contact = styled.a`
 color: ${props => props.theme.text};
 position: absolute;
@@ -35,6 +40,9 @@ top: 2rem;
 right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
+@media (max-width: 786px) {
+    display: none;
+  }
 `
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
@@ -141,7 +149,7 @@ const Main = () => {
             <SocialIcons theme={click ? 'dark' :'light'} />
            
             <Center click={click}>
-                <YinYang  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <YinYang  onClick={()=> handleClick()} width={click ? 120 : 160} height={click ? 120 : 160} fill='currentColor' />
                 <span>click here</span>
             </Center>
 
@@ -159,7 +167,7 @@ const Main = () => {
                 whileTap={{scale: 0.9}}
                 
                 >
-                    Shahbaz Anari
+                    Shahbaz
                 </motion.h2>
             </Contact>
                 <BLOG to="/projects">

@@ -26,6 +26,10 @@ z-index:10;
 &>*:nth-child(5){
     animation-delay: 0.8s;
 }
+@media (max-width: 786px) {
+    right: 1rem; 
+    left: auto;
+  }
 `
 
 const play = keyframes`

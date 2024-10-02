@@ -15,7 +15,7 @@ import BigTitlte from "../subComponents/BigTitlte";
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
 
-  height: 400vh;
+  height: 330vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ const Main = styled(motion.ul)`
   left: calc(10rem + 15vw);
   height: 40vh;
   display: flex;
-
+  z-index: 100;
   color: white;
 `;
 const Rotate = styled.span`

@@ -7,7 +7,7 @@ export const Work = [
         description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
         tags:["react","gsap","styledComponents"],
         
-        demo:"https://agency-website-eta.vercel.app/",
+        demo:"https://landing-page-tau-orpin.vercel.app/",
         github:"https://github.com/codebucks27/Agency-website"
     },
     {
@@ -19,15 +19,6 @@ export const Work = [
         demo:"http://react-job-listing-website.codebucks27.vercel.app/",
         github:"https://github.com/codebucks27/react-job-listing-website"
         
-    },
-    {
-        id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
-        
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
     },
     {
         id:4,
@@ -48,16 +39,4 @@ export const Work = [
         github:"https://github.com/codebucks27/React-Redux-Todo-App"
         
     },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
-    },
-    
-  
 ] 
