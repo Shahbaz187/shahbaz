@@ -31,7 +31,7 @@ const Icons = styled.div`
 
 const Line = styled(motion.span)`
   width: 2px;
-  height: 8rem;
+  height: 4rem;
   background-color: ${(props) =>
     props.color === "dark" ? DarkTheme.text : DarkTheme.body};
 `;
