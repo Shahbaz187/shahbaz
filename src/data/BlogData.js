@@ -25,5 +25,13 @@ export const Blogs = [
         imgSrc:"p2.png",
         link:"https://digi-media-five.vercel.app/"
     },
+    {
+        id:3,
+        name:"Create this Blog Website Using React js  and Tailwind CSS",
+        tags: ["React js", "Tailwind CSS", "Express", "MongoDb",  "Node js"],
+        date:"20 August, 2024",
+        imgSrc:"p3.png",
+        link:"https://sa-blogs.vercel.app/"
+    },
 
 ] 
