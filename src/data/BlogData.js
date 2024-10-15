@@ -30,7 +30,7 @@ export const Blogs = [
         name:"Create this Blog Website Using React js  and Tailwind CSS",
         tags: ["React js", "Tailwind CSS", "Express", "MongoDb",  "Node js"],
         date:"20 August, 2024",
-        imgSrc:"p3.png",
+        imgSrc:"p4.png",
         link:"https://sa-blogs.vercel.app/"
     },
 
